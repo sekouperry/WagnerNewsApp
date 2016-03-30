@@ -597,7 +597,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqc-fI-k7U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1753" y="-323"/>
+            <point key="canvasLocation" x="1551" y="-236"/>
         </scene>
         <!--Launch2 View Controller-->
         <scene sceneID="uxF-dg-UNv">
@@ -622,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pt2-6r-mlq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2447" y="-389"/>
+            <point key="canvasLocation" x="1999" y="-271"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="SES-fK-eq3">
@@ -702,7 +702,7 @@
                                                         <constraint firstAttribute="width" constant="249" id="yvw-Ud-dWs"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -838,7 +838,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LHk-hx-5sG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2465" y="-323"/>
+            <point key="canvasLocation" x="2757" y="381"/>
         </scene>
         <!--Art2 View Controller-->
         <scene sceneID="zrU-5K-DW9">
@@ -1217,7 +1217,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Xsn-xz-YD9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WjK-ff-liQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="WjK-ff-liQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JSG-4B-UHy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1230,11 +1230,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="335-YE-Qp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="-216"/>
+            <point key="canvasLocation" x="892" y="-249"/>
         </scene>
     </scenes>
     <resources>
-        <image name="house" width="120" height="120"/>
+        <image name="house" width="640" height="480"/>
         <image name="image1" width="120" height="120"/>
         <image name="image2" width="120" height="120"/>
         <image name="image3" width="120" height="120"/>
@@ -1248,6 +1248,6 @@
         <image name="wagnercollege" width="120" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HPw-Ok-YJG"/>
+        <segue reference="9J9-RS-D0m"/>
     </inferredMetricsTieBreakers>
 </document>

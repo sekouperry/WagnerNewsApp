@@ -22,7 +22,7 @@ class academic2ViewController: UIViewController, UIPageViewControllerDelegate, U
         
         self.pagetitle3 = NSArray(objects: "N.Y. Times ranks Wagner #6 in America ","Wagner named 1 of only 50 nationwide ","Art professor Bill Murphy  ")
         self.pagetitle23 = NSArray(objects: "among ‘value added’ colleges","That Create Futures","to document New York Wheel construction")
-        self.pageimagefile3 = NSArray(objects: "news1","news2","news3")
+        self.pageimagefile3 = NSArray(objects: "news1","news3","new2")
         self.pageimagefile23 = NSArray(objects: "image2","image3","image5")
         
         self.pagename3 = NSArray(objects: "Claire.bridget@wagner.edu","Steve.Martin@wagner.edu","Emily.Orange@wagner.edu","Ceecee.bridget@wagner.edu","tom.martin@wagner.edu")

@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo12" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-dB-p9W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Postnew2" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-dB-p9W">
                                 <rect key="frame" x="86" y="53" width="427" height="468"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="468" id="NpM-cR-kHT"/>
@@ -33,10 +33,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93" y="342"/>
+            <point key="canvasLocation" x="-37" y="334"/>
         </scene>
     </scenes>
     <resources>
-        <image name="logo12" width="120" height="120"/>
+        <image name="Postnew2" width="640" height="1136"/>
     </resources>
 </document>

@@ -21,7 +21,7 @@ class Art2ViewController: UIViewController, UIPageViewControllerDelegate, UIPage
 
         self.pagetitle4 = NSArray(objects: "Les Demoiselles ","Three woman","Happy")
         self.pagetitle24 = NSArray(objects: "d'Avignon","at the spring","Easter!!!!!")
-        self.pageimagefile4 = NSArray(objects: "painting1","painting3","painting2")
+        self.pageimagefile4 = NSArray(objects: "painting1","painting2","painting3")
        
         self.pageViewController =  self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController2") as! UIPageViewController
         

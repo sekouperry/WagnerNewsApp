@@ -24,9 +24,9 @@ class launchMeViewController: UIViewController, UIPageViewControllerDelegate, UI
         
         self.pagetitle = NSArray(objects: "Grymes home","Wagner College Theatre announces ","Wagner grad volunteers ","Day of Giving fundraiser ","Seahawks Earn 79-75 NIT Win Over ","Ilya Kneppelhout Named NEC")
         self.pagetitle2 = NSArray(objects: "ravaged in fire" ,"2016 Stanley Drama Award winners","at Greek refugee camp","was biggest ever!","St. Bonaventurel; At Creighton","Men's Tennis Rookie of the Week")
-        self.pageimagefile = NSArray(objects: "house" ,"unnamed5","unnamed1","unnamed2","unnamed4","unnamed3")
+        self.pageimagefile = NSArray(objects: "house" ,"unnamed","unamed1","unamed3","unamed2","unamed4")
         
-        self.pageimagefile2 = NSArray(objects: "image1","image2","images3","image4","image5","image3")
+        self.pageimagefile2 = NSArray(objects: "image1","image2","image3","image4","image5","image3")
         
         self.pagename = NSArray(objects: "tom.bridget@wagner.edu","Steve.Martin@wagner.edu","Emily.Orange@wagner.edu","Ceecee.bridget@wagner.edu","bridget.martin@wagner.edu")
         
