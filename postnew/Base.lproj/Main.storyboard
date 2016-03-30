@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YCE-zW-Ymf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YCE-zW-Ymf">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -20,7 +20,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-oj-wDv">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="140"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Postnew-2" translatesAutoresizingMaskIntoConstraints="NO" id="OWW-cr-eIK">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo12" translatesAutoresizingMaskIntoConstraints="NO" id="OWW-cr-eIK">
                                         <rect key="frame" x="492" y="13" width="90" height="51"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="KvS-xL-u5Z"/>
@@ -116,7 +116,7 @@
                                         </variation>
                                         <connections>
                                             <action selector="SignUp3:" destination="YCE-zW-Ymf" eventType="touchUpInside" id="tvg-DI-1ie"/>
-                                            <segue destination="ylG-aH-vrg" kind="presentation" identifier="sign_me" id="ElU-3Z-fJA"/>
+                                            <segue destination="ylG-aH-vrg" kind="presentation" identifier="sign_me" id="7bs-QN-3K3"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IYu-bn-fil" customClass="Textuser" customModule="postnew" customModuleProvider="target">
@@ -214,12 +214,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvJ-dd-tvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-688" y="-311"/>
+            <point key="canvasLocation" x="-704" y="-317"/>
         </scene>
-        <!--Curlpagenow-->
+        <!--Curlpage View Controller-->
         <scene sceneID="9n5-Ih-XgE">
             <objects>
-                <viewController storyboardIdentifier="curlpagenow" id="D5U-Ba-DSE" customClass="curlpagenow" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="curlpageViewController" id="D5U-Ba-DSE" customClass="curlpageViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5eL-NG-8BH"/>
                         <viewControllerLayoutGuide type="bottom" id="qgR-cB-RDr"/>
@@ -228,7 +228,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-qA-lYU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed5" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-qA-lYU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8M-mM-fc3">
@@ -253,7 +253,7 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed-2" translatesAutoresizingMaskIntoConstraints="NO" id="K7v-Ps-2Ud">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="K7v-Ps-2Ud">
                                         <rect key="frame" x="258" y="53" width="88" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="6Mj-PN-vL9"/>
@@ -313,22 +313,22 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imagetop" destination="cn7-qA-lYU" id="HHD-H8-Q8N"/>
-                        <outlet property="namepic" destination="J1j-J4-6pg" id="1BY-CB-OHB"/>
-                        <outlet property="profilepic" destination="K7v-Ps-2Ud" id="uB7-GQ-OKb"/>
-                        <outlet property="textfield" destination="BEI-Ag-qg4" id="0WD-Kh-TnX"/>
-                        <outlet property="title1" destination="n8E-6c-Sgi" id="8ZV-Er-1IG"/>
-                        <outlet property="title2" destination="Asz-x5-f2D" id="7Vb-LL-em2"/>
+                        <outlet property="imagetop" destination="cn7-qA-lYU" id="FRI-JV-QKt"/>
+                        <outlet property="namepic" destination="J1j-J4-6pg" id="dka-in-SzK"/>
+                        <outlet property="profilepic" destination="K7v-Ps-2Ud" id="xdI-2x-y0l"/>
+                        <outlet property="textfield" destination="BEI-Ag-qg4" id="bUj-ca-Hfm"/>
+                        <outlet property="title1" destination="n8E-6c-Sgi" id="CQh-0z-Zcy"/>
+                        <outlet property="title2" destination="Asz-x5-f2D" id="1ad-tw-wxF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIq-nl-5Q5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="379" y="961"/>
+            <point key="canvasLocation" x="151" y="955"/>
         </scene>
-        <!--Collect View Controller-->
+        <!--Collective View Controller-->
         <scene sceneID="46N-Ay-4SH">
             <objects>
-                <viewController id="ylG-aH-vrg" customClass="CollectViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ylG-aH-vrg" customClass="collectiveViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hJx-7b-k6q"/>
                         <viewControllerLayoutGuide type="bottom" id="iVa-Pd-m5J"/>
@@ -343,9 +343,9 @@
                                     <constraint firstAttribute="width" constant="121" id="Xhr-33-C6F"/>
                                     <constraint firstAttribute="height" constant="108" id="lvY-Wc-ZB3"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="WagnerCollege-1"/>
+                                <state key="normal" title="Button" image="wagnercollege"/>
                                 <connections>
-                                    <segue destination="GkJ-eA-BDU" kind="presentation" id="0Am-ah-G6V"/>
+                                    <segue destination="WjK-ff-liQ" kind="presentation" id="5eo-pM-YWc"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFV-57-F9J">
@@ -405,17 +405,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="wagcollect" destination="toW-wp-8d5" id="bN2-hQ-VQg"/>
+                        <outlet property="wagcollect" destination="toW-wp-8d5" id="CMh-ki-KGw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lec-wb-wbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="-317"/>
+            <point key="canvasLocation" x="74" y="-317"/>
         </scene>
-        <!--Articlescover-->
+        <!--Article View Controller-->
         <scene sceneID="UFg-hG-IJh">
             <objects>
-                <viewController id="6pa-Ix-Yam" customClass="Articlescover" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6pa-Ix-Yam" customClass="ArticleViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XWs-q6-FUA"/>
                         <viewControllerLayoutGuide type="bottom" id="7yK-a1-H5R"/>
@@ -448,7 +448,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="3d5-jB-Swv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image4" translatesAutoresizingMaskIntoConstraints="NO" id="3d5-jB-Swv">
                                 <rect key="frame" x="14" y="126" width="56" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="56" id="3x1-aj-7xn"/>
@@ -456,7 +456,7 @@
                                     <constraint firstAttribute="height" constant="47" id="SRf-VM-pAW"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-4" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-1H-bwt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-1H-bwt">
                                 <rect key="frame" x="78" y="61" width="56" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="56" id="0k6-it-ywQ"/>
@@ -464,14 +464,14 @@
                                     <constraint firstAttribute="height" constant="47" id="sCB-Sr-Wrm"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-5" translatesAutoresizingMaskIntoConstraints="NO" id="kGn-es-cwV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="kGn-es-cwV">
                                 <rect key="frame" x="14" y="61" width="56" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="qqG-EK-TX1"/>
                                     <constraint firstAttribute="width" constant="56" id="wuw-gp-mIO"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-3" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-Fz-NSf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image5" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-Fz-NSf">
                                 <rect key="frame" x="85" y="126" width="56" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="56" id="8xn-ne-7kW"/>
@@ -479,7 +479,7 @@
                                     <constraint firstAttribute="width" constant="56" id="WNR-gK-N2P"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="9Pl-vY-vSR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="9Pl-vY-vSR">
                                 <rect key="frame" x="142" y="61" width="56" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="56" id="8YZ-Vj-pb0"/>
@@ -496,7 +496,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Click to view"/>
                                 <connections>
-                                    <segue destination="m1e-sv-ozs" kind="presentation" id="gNI-N3-omn"/>
+                                    <segue destination="E9H-NK-CvA" kind="presentation" id="b6T-7o-JhG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlP-Ql-mgW">
@@ -584,20 +584,20 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="AdZ-yS-H88"/>
                     <connections>
-                        <outlet property="button" destination="6e2-zN-SvN" id="BP5-4n-ksr"/>
-                        <outlet property="cover1" destination="kGn-es-cwV" id="Vhs-Wa-x3g"/>
-                        <outlet property="cover2" destination="Mkq-1H-bwt" id="ywm-a0-04F"/>
-                        <outlet property="cover3" destination="9Pl-vY-vSR" id="xb2-sL-2XV"/>
-                        <outlet property="cover4" destination="3d5-jB-Swv" id="WcF-x3-IZX"/>
-                        <outlet property="cover5" destination="o7p-Fz-NSf" id="vYc-DO-o3l"/>
-                        <outlet property="coverimage" destination="e7U-BL-TVI" id="zgk-cd-1HM"/>
-                        <outlet property="title1" destination="KRh-iU-4Ph" id="lnf-S9-gQR"/>
-                        <outlet property="title2" destination="hO4-qd-aF8" id="mMT-LQ-4sa"/>
+                        <outlet property="button" destination="6e2-zN-SvN" id="xys-Ae-76R"/>
+                        <outlet property="cover1" destination="kGn-es-cwV" id="pKw-NA-yh4"/>
+                        <outlet property="cover2" destination="Mkq-1H-bwt" id="q2i-9P-Ujo"/>
+                        <outlet property="cover3" destination="9Pl-vY-vSR" id="Oe3-7K-plV"/>
+                        <outlet property="cover4" destination="3d5-jB-Swv" id="b4q-QJ-pcC"/>
+                        <outlet property="cover5" destination="o7p-Fz-NSf" id="yZ6-VT-iLU"/>
+                        <outlet property="coverimage" destination="e7U-BL-TVI" id="Kp8-UF-mXs"/>
+                        <outlet property="title1" destination="KRh-iU-4Ph" id="8kX-Zb-y0Q"/>
+                        <outlet property="title2" destination="hO4-qd-aF8" id="0zG-so-33z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqc-fI-k7U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="862" y="281"/>
+            <point key="canvasLocation" x="1753" y="-323"/>
         </scene>
         <!--Launch2 View Controller-->
         <scene sceneID="uxF-dg-UNv">
@@ -615,16 +615,14 @@
                     <navigationItem key="navigationItem" id="rSy-Ra-2fB">
                         <barButtonItem key="leftBarButtonItem" title="GoBack" id="1Ap-zT-Shh">
                             <connections>
-                                <segue destination="6pa-Ix-Yam" kind="popoverPresentation" popoverAnchorBarButtonItem="1Ap-zT-Shh" id="7fn-Ic-Y0Y">
-                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                </segue>
+                                <segue destination="6pa-Ix-Yam" kind="presentation" id="Gzi-uU-JE9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pt2-6r-mlq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3638" y="435"/>
+            <point key="canvasLocation" x="2447" y="-389"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="SES-fK-eq3">
@@ -634,10 +632,10 @@
             </objects>
             <point key="canvasLocation" x="-870" y="2424"/>
         </scene>
-        <!--Launch Now View Controller-->
+        <!--Launch Me View Controller-->
         <scene sceneID="6SP-Nr-ONF">
             <objects>
-                <viewController storyboardIdentifier="launchNowViewController" id="cKl-zF-jlM" customClass="launchNowViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="launchMeViewController" id="cKl-zF-jlM" customClass="launchMeViewController" customModule="postnew" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9c1-dM-diy"/>
                         <viewControllerLayoutGuide type="bottom" id="5eb-ig-pqz"/>
@@ -651,7 +649,7 @@
                     <navigationItem key="navigationItem" id="cTi-fD-4cQ">
                         <barButtonItem key="leftBarButtonItem" title="GoBack" id="x3q-UX-wqS">
                             <connections>
-                                <segue destination="6pa-Ix-Yam" kind="presentation" id="58z-aP-O1Y"/>
+                                <segue destination="6pa-Ix-Yam" kind="presentation" id="HPw-Ok-YJG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -659,7 +657,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7mb-mh-oTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="1013"/>
+            <point key="canvasLocation" x="1822" y="582"/>
         </scene>
         <!--comments-->
         <scene sceneID="WBx-qi-aQi">
@@ -799,43 +797,6 @@
             </objects>
             <point key="canvasLocation" x="317" y="1759"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="uXx-ZB-jFV">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="GkJ-eA-BDU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="9u5-kA-yFL"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m5J-b8-LAj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="6pa-Ix-Yam" kind="relationship" relationship="rootViewController" id="ZvL-jV-ErI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="95s-8e-crb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-49" y="486"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="wmH-B3-EvU">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m1e-sv-ozs" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eVP-qx-L4g">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="cKl-zF-jlM" kind="relationship" relationship="rootViewController" id="GFk-AD-WCI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g62-uf-j3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1002" y="1052"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="4Ih-hH-wTI">
             <objects>
@@ -870,14 +831,14 @@
                     <navigationItem key="navigationItem" id="lyl-FY-xP4">
                         <barButtonItem key="leftBarButtonItem" title="GoBack" id="oHb-Ne-ci3">
                             <connections>
-                                <segue destination="6pa-Ix-Yam" kind="presentation" id="yVc-jB-ri4"/>
+                                <segue destination="6pa-Ix-Yam" kind="presentation" id="Vds-yV-wFn"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LHk-hx-5sG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2265" y="-101"/>
+            <point key="canvasLocation" x="2465" y="-323"/>
         </scene>
         <!--Art2 View Controller-->
         <scene sceneID="zrU-5K-DW9">
@@ -895,14 +856,14 @@
                     <navigationItem key="navigationItem" id="XtH-I6-NE1">
                         <barButtonItem key="leftBarButtonItem" title="GoBack" id="Q3i-4F-DKg">
                             <connections>
-                                <segue destination="6pa-Ix-Yam" kind="presentation" id="DN6-5n-XJl"/>
+                                <segue destination="6pa-Ix-Yam" kind="presentation" id="Lch-U0-wRl"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5i-RY-fjm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2619" y="1129"/>
+            <point key="canvasLocation" x="2377" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i4t-eG-YIh">
@@ -920,7 +881,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sud-j8-acl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3204" y="547"/>
+            <point key="canvasLocation" x="4016" y="547"/>
         </scene>
         <!--Sports View Controller-->
         <scene sceneID="8t0-Uh-CDN">
@@ -1029,7 +990,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="acI-MT-9DH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3158" y="371"/>
+            <point key="canvasLocation" x="4782" y="371"/>
         </scene>
         <!--Academic View Controller-->
         <scene sceneID="y8S-KM-OJ3">
@@ -1138,7 +1099,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gCV-ks-ouo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="-236"/>
+            <point key="canvasLocation" x="2560" y="-236"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="x0D-JF-bq2">
@@ -1156,7 +1117,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5g-eB-3u8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2041" y="1023"/>
+            <point key="canvasLocation" x="2853" y="1023"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bn3-94-Sga">
@@ -1174,7 +1135,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98N-dr-DaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2377" y="-172"/>
+            <point key="canvasLocation" x="3189" y="-172"/>
         </scene>
         <!--Art View Controller-->
         <scene sceneID="fdh-ud-kQm">
@@ -1233,22 +1194,60 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ho-Ds-ebX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2240" y="1113"/>
+            <point key="canvasLocation" x="3092" y="1143"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vnf-lu-2Zf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E9H-NK-CvA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zBr-4l-yro">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cKl-zF-jlM" kind="relationship" relationship="rootViewController" id="ojm-Za-DME"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MT1-qg-PPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1440" y="481"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xsn-xz-YD9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WjK-ff-liQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JSG-4B-UHy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6pa-Ix-Yam" kind="relationship" relationship="rootViewController" id="9J9-RS-D0m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="335-YE-Qp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-216"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Postnew-2" width="448" height="124"/>
-        <image name="WagnerCollege-1" width="300" height="150"/>
-        <image name="house" width="640" height="480"/>
+        <image name="house" width="120" height="120"/>
+        <image name="image1" width="120" height="120"/>
+        <image name="image2" width="120" height="120"/>
+        <image name="image3" width="120" height="120"/>
+        <image name="image4" width="120" height="120"/>
+        <image name="image5" width="120" height="120"/>
         <image name="images-1" width="201" height="251"/>
-        <image name="images-2" width="160" height="160"/>
-        <image name="images-3" width="183" height="275"/>
-        <image name="images-4" width="284" height="177"/>
-        <image name="images-5" width="262" height="192"/>
+        <image name="logo12" width="120" height="120"/>
         <image name="unnamed" width="1060" height="596"/>
         <image name="unnamed-2" width="300" height="150"/>
+        <image name="unnamed5" width="120" height="120"/>
+        <image name="wagnercollege" width="120" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7fn-Ic-Y0Y"/>
+        <segue reference="HPw-Ok-YJG"/>
     </inferredMetricsTieBreakers>
 </document>

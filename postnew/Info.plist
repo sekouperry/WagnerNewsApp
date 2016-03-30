@@ -8,6 +8,31 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>athlete-1.png</string>
+		<string>athlete-2.png</string>
+		<string>athlete-3.png</string>
+		<string>house.png</string>
+		<string>image-1.png</string>
+		<string>image-2.png</string>
+		<string>image-3.png</string>
+		<string>image-4.png</string>
+		<string>image-5.png</string>
+		<string>logo12.png</string>
+		<string>news-1.png</string>
+		<string>news-2.png</string>
+		<string>news-3.png</string>
+		<string>painting-1.png</string>
+		<string>painting-2.png</string>
+		<string>painting-3.png</string>
+		<string>unamed-1.png</string>
+		<string>unamed-2.png</string>
+		<string>unamed-3.png</string>
+		<string>unamed-4.png</string>
+		<string>unamed-5.png</string>
+		<string>wagnercollege.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

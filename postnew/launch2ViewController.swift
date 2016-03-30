@@ -24,8 +24,8 @@ class launch2ViewController: UIViewController, UIPageViewControllerDelegate, UIP
         self.pagetitle2 = NSArray(objects: "A Good TurnOver After 34 seasons","Women’s Water Polo Ranked ","Wagner Baseball Opens Northeast")
         self.pagetitle22 = NSArray(objects: "Hameline hangs the towel",
             "18th In Latest CWPA Poll","Conference Play At Mount St. Mary's")
-        self.pageimagefile2 = NSArray(objects: "athlete-1","athlete-2","athlete-3")
-         self.pageimagefile22 = NSArray(objects: "images-1","images-2","images-3")
+        self.pageimagefile2 = NSArray(objects: "athlete1","athlete2","athlete3")
+         self.pageimagefile22 = NSArray(objects: "image1","image2","image3")
         
         self.pagename2 = NSArray(objects: "Claire.bridget@wagner.edu","Steve.Martin@wagner.edu","Emily.Orange@wagner.edu","Ceecee.bridget@wagner.edu","tom.martin@wagner.edu")
         

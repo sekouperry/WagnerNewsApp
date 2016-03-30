@@ -23,14 +23,14 @@
 		8B6D7BDA1CA3842600624706 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D7BD91CA3842600624706 /* ArtViewController.swift */; };
 		8B6D7BDC1CA384D000624706 /* academic2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D7BDB1CA384D000624706 /* academic2ViewController.swift */; };
 		8B6D7BDE1CA3850C00624706 /* Art2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D7BDD1CA3850C00624706 /* Art2ViewController.swift */; };
-		8B76EADC1CA0651900E66B32 /* Articlescover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EAD91CA0651900E66B32 /* Articlescover.swift */; };
-		8B76EADD1CA0651900E66B32 /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EADA1CA0651900E66B32 /* CollectViewController.swift */; };
-		8B76EADE1CA0651900E66B32 /* curlpagenow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EADB1CA0651900E66B32 /* curlpagenow.swift */; };
-		8B76EAE01CA073CD00E66B32 /* launchNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EADF1CA073CD00E66B32 /* launchNowViewController.swift */; };
 		8B76EAE81CA0DEFA00E66B32 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EAE71CA0DEFA00E66B32 /* Post.swift */; };
 		8B76EAEC1CA0E03800E66B32 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EAEB1CA0E03800E66B32 /* feedVC.swift */; };
 		8B76EAEE1CA0E8E300E66B32 /* postcellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76EAED1CA0E8E300E66B32 /* postcellTableViewCell.swift */; };
 		8B7B79C01C94D62A00D60531 /* SignnuppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B79BF1C94D62A00D60531 /* SignnuppViewController.swift */; };
+		8BBE4DB81CAB53950071436F /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4DB71CAB53950071436F /* ArticleViewController.swift */; };
+		8BBE4DBA1CAB54CD0071436F /* collectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4DB91CAB54CD0071436F /* collectiveViewController.swift */; };
+		8BBE4DBC1CAB56600071436F /* curlpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4DBB1CAB56600071436F /* curlpageViewController.swift */; };
+		8BBE4DBE1CAB572B0071436F /* launchMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4DBD1CAB572B0071436F /* launchMeViewController.swift */; };
 		BBC16AE0F5C35E35F71D0792 /* Pods_postnew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C5FCE0E96C3EA43E1C4FED /* Pods_postnew.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,14 +55,14 @@
 		8B6D7BD91CA3842600624706 /* ArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 		8B6D7BDB1CA384D000624706 /* academic2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = academic2ViewController.swift; sourceTree = "<group>"; };
 		8B6D7BDD1CA3850C00624706 /* Art2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art2ViewController.swift; sourceTree = "<group>"; };
-		8B76EAD91CA0651900E66B32 /* Articlescover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Articlescover.swift; path = ../../versity/versity/Articlescover.swift; sourceTree = "<group>"; };
-		8B76EADA1CA0651900E66B32 /* CollectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectViewController.swift; path = ../../versity/versity/CollectViewController.swift; sourceTree = "<group>"; };
-		8B76EADB1CA0651900E66B32 /* curlpagenow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = curlpagenow.swift; path = ../../versity/versity/curlpagenow.swift; sourceTree = "<group>"; };
-		8B76EADF1CA073CD00E66B32 /* launchNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = launchNowViewController.swift; path = ../../versity/versity/launchNowViewController.swift; sourceTree = "<group>"; };
 		8B76EAE71CA0DEFA00E66B32 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = ../../../.Trash/Post.swift; sourceTree = "<group>"; };
 		8B76EAEB1CA0E03800E66B32 /* feedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = feedVC.swift; path = ../../../.Trash/feedVC.swift; sourceTree = "<group>"; };
 		8B76EAED1CA0E8E300E66B32 /* postcellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postcellTableViewCell.swift; sourceTree = "<group>"; };
 		8B7B79BF1C94D62A00D60531 /* SignnuppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignnuppViewController.swift; sourceTree = "<group>"; };
+		8BBE4DB71CAB53950071436F /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		8BBE4DB91CAB54CD0071436F /* collectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectiveViewController.swift; sourceTree = "<group>"; };
+		8BBE4DBB1CAB56600071436F /* curlpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = curlpageViewController.swift; sourceTree = "<group>"; };
+		8BBE4DBD1CAB572B0071436F /* launchMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = launchMeViewController.swift; sourceTree = "<group>"; };
 		A518CE3171D1CEBC7F83AD0D /* Pods-postnew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-postnew.release.xcconfig"; path = "Pods/Target Support Files/Pods-postnew/Pods-postnew.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +109,7 @@
 		8B51B96B1C8F40450071F777 /* postnew */ = {
 			isa = PBXGroup;
 			children = (
+				8BBE4DB61CAB23AF0071436F /* resource file */,
 				8B6C3C0A1C951A840047E444 /* Model */,
 				8B7B79B81C9284B400D60531 /* controller */,
 				8B51B9881C90BB830071F777 /* Services */,
@@ -159,14 +160,14 @@
 			isa = PBXGroup;
 			children = (
 				8B51B9861C90B1E50071F777 /* NewpostViewController.swift */,
-				8B76EAD91CA0651900E66B32 /* Articlescover.swift */,
+				8BBE4DB71CAB53950071436F /* ArticleViewController.swift */,
 				8B76EAEB1CA0E03800E66B32 /* feedVC.swift */,
-				8B76EADA1CA0651900E66B32 /* CollectViewController.swift */,
+				8BBE4DB91CAB54CD0071436F /* collectiveViewController.swift */,
 				8B76EAE71CA0DEFA00E66B32 /* Post.swift */,
 				8B7B79BF1C94D62A00D60531 /* SignnuppViewController.swift */,
 				8B76EAED1CA0E8E300E66B32 /* postcellTableViewCell.swift */,
-				8B76EADB1CA0651900E66B32 /* curlpagenow.swift */,
-				8B76EADF1CA073CD00E66B32 /* launchNowViewController.swift */,
+				8BBE4DBB1CAB56600071436F /* curlpageViewController.swift */,
+				8BBE4DBD1CAB572B0071436F /* launchMeViewController.swift */,
 				8B6D7BD51CA3829900624706 /* SportsViewController.swift */,
 				8B6D7BD31CA3810000624706 /* launch2ViewController.swift */,
 				8B6D7BD71CA3833800624706 /* academicViewController.swift */,
@@ -175,6 +176,13 @@
 				8B6D7BDD1CA3850C00624706 /* Art2ViewController.swift */,
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		8BBE4DB61CAB23AF0071436F /* resource file */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "resource file";
 			sourceTree = "<group>";
 		};
 		D41D9D55B373F5D902DFBC2A /* Pods */ = {
@@ -316,20 +324,20 @@
 			files = (
 				8B76EAEC1CA0E03800E66B32 /* feedVC.swift in Sources */,
 				8B7B79C01C94D62A00D60531 /* SignnuppViewController.swift in Sources */,
-				8B76EADE1CA0651900E66B32 /* curlpagenow.swift in Sources */,
+				8BBE4DBC1CAB56600071436F /* curlpageViewController.swift in Sources */,
+				8BBE4DBA1CAB54CD0071436F /* collectiveViewController.swift in Sources */,
 				8B6D7BD41CA3810000624706 /* launch2ViewController.swift in Sources */,
 				8B51B9871C90B1E50071F777 /* NewpostViewController.swift in Sources */,
 				8B76EAE81CA0DEFA00E66B32 /* Post.swift in Sources */,
 				8B51B98A1C90BBA10071F777 /* Services.swift in Sources */,
 				8B6D7BD81CA3833800624706 /* academicViewController.swift in Sources */,
-				8B76EAE01CA073CD00E66B32 /* launchNowViewController.swift in Sources */,
+				8BBE4DBE1CAB572B0071436F /* launchMeViewController.swift in Sources */,
 				8B76EAEE1CA0E8E300E66B32 /* postcellTableViewCell.swift in Sources */,
 				8B51B9801C8F586E0071F777 /* SignIn.swift in Sources */,
 				8B6D7BDE1CA3850C00624706 /* Art2ViewController.swift in Sources */,
-				8B76EADC1CA0651900E66B32 /* Articlescover.swift in Sources */,
 				8B6D7BDC1CA384D000624706 /* academic2ViewController.swift in Sources */,
 				8B6D7BDA1CA3842600624706 /* ArtViewController.swift in Sources */,
-				8B76EADD1CA0651900E66B32 /* CollectViewController.swift in Sources */,
+				8BBE4DB81CAB53950071436F /* ArticleViewController.swift in Sources */,
 				8B51B96D1C8F40450071F777 /* AppDelegate.swift in Sources */,
 				8B51B9831C8F5C560071F777 /* Constant.swift in Sources */,
 				8B51B9851C8F79B70071F777 /* Textuser.swift in Sources */,
@@ -454,9 +462,9 @@
 				INFOPLIST_FILE = postnew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.kennethokerekemanager.postnew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.postnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6e51a7be-3ecd-44be-b858-866a8f57024d";
 			};
 			name = Debug;
 		};
@@ -465,8 +473,8 @@
 			baseConfigurationReference = A518CE3171D1CEBC7F83AD0D /* Pods-postnew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kenneth Okereke (S74N46PSY8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kenneth Okereke (S74N46PSY8)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -474,9 +482,9 @@
 				INFOPLIST_FILE = postnew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.kennethokerekemanager.postnew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.postnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6e51a7be-3ecd-44be-b858-866a8f57024d";
 			};
 			name = Release;
 		};
