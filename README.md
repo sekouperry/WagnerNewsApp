@@ -1,2 +1,2 @@
 # IOS-COOLNAME
-My first app on github
+Postnews that collects news content from Wagner College
